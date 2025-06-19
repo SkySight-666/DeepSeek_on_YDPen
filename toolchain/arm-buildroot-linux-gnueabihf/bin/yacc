@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/opt/armv7-eabihf--glibc--stable-2018.11-1/bin/bison' -y "$@"
