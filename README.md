@@ -16,6 +16,6 @@
 - （可选）开机启动：在 `init.d/rcS`中追加以下内容：
   ```
   cd /userdisk/Favorite
-./dsProject > /userdisk/Favorite/dsproject.log 2>&1 &
+  ./dsProject > /userdisk/Favorite/dsproject.log 2>&1 &
   ```
 -连接网络，翻译需要询问的问题，在提问最后追加`@ds`，收藏，等待主程序重启，到单词本中查看回复。
